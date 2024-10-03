@@ -8,7 +8,7 @@ import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from '@/components/ui/popover';
+} from '@/components/ui/Popover';
 
 const CustomDatePickerRange = ({ className }) => {
   const [date, setDate] = React.useState({
