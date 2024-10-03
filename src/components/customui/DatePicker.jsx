@@ -3,8 +3,8 @@ import { addDays, format } from 'date-fns';
 import { Calendar as CalendarIcon } from 'lucide-react';
 
 import { cn } from '@/lib/utils';
-import { Button } from '@/components/ui/button';
-import { Calendar } from '@/components/ui/calendar';
+import { Button } from '@/components/ui/Button';
+import { Calendar } from '@/components/ui/Calendar';
 import {
   Popover,
   PopoverContent,

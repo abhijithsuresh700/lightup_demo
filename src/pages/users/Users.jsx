@@ -7,7 +7,7 @@ import { Checkbox } from '@/components/ui/Checkbox';
 import { GoPasskeyFill } from "react-icons/go";
 import { Input } from '@/components/ui/Input';
 import { Label } from '@/components/ui/Label';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from '@/components/ui/dialog';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from '@/components/ui/Dialog';
 
 const data = [
   {
