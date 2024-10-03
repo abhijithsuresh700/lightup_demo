@@ -7,7 +7,6 @@ import { Checkbox } from '@/components/ui/Checkbox';
 import { GoPasskeyFill } from "react-icons/go";
 import { Input } from '@/components/ui/Input';
 import { Label } from '@/components/ui/Label';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from '@/components/ui/Dialog';
 
 const data = [
   {
@@ -122,7 +121,7 @@ const Users = () => {
       </Card>
 
       {/* User Modal */}
-      {isUserModalOpen && (
+      {/* {isUserModalOpen && (
         <Dialog open={isUserModalOpen} onOpenChange={handleUserModalClose}>
           <DialogContent>
             <DialogHeader>
@@ -154,10 +153,10 @@ const Users = () => {
             </DialogFooter>
           </DialogContent>
         </Dialog>
-      )}
+      )} */}
 
       {/* Password Modal */}
-      {isPasswordModalOpen && (
+      {/* {isPasswordModalOpen && (
         <Dialog open={isPasswordModalOpen} onOpenChange={handlePasswordModalClose}>
           <DialogContent>
             <DialogHeader>
@@ -187,7 +186,7 @@ const Users = () => {
             </DialogFooter>
           </DialogContent>
         </Dialog>
-      )}
+      )} */}
     </>
   );
 };
